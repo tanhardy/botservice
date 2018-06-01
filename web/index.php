@@ -26,8 +26,8 @@ $teach = $database->selectCollection('teach');
 //$channelAccessToken = getenv('LINE_ACCESS_TOKEN');
 //$channelSecret = getenv('LINE_CHANNEL_SECRET');
 
-$channelAccessToken = 'bOpy1urItDJe9zNiVxjmXjzBs42RM3haRKHmPj8dgNE+g6RPL6tVCuJFHG6v3OWKoMVJtEowgGVX6fAhkZUtbY/B3E/rHBohJDG2ktFcEBlq6MvRyh+Q+EIQ65rxRCXEnhUisJsrZGvPlJ4z2E2CAQdB04t89/1O/w1cDnyilFU=';
-$channelSecret = '7f52dd9b19751bcb2b23008a0caa1b93';
+$channelAccessToken = 'YAUg5wm0qQbIA3a9LwA4XntIf9i22QRy9v296uj+fjqA6nFPBo8Hrxs34vT/fzd640sMUNVyDoMB1QN+708xZOyfVsFjHH3H5dqG87PenA9iKT64JNnm+n3HT0frX0VT5G79cmHoyP4d/vKq9f60PQdB04t89/1O/w1cDnyilFU=';
+$channelSecret = 'b2a11f190f42aa183e087d6c29a6dfea';
 
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
