@@ -1,17 +1,14 @@
 <?php
-try
-{
-    $connection = new Mongo('mongodb://iwestz:lakious1@ds145389.mlab.com:45389/wow-api-ah');
-    $database   = $connection->selectDB('wow-api-ah');
-    // $db_name = 'wow-api-ah';
-    // $database =  $connection->wow-api-ah;
-    // $collection = $database->selectCollection('AH');
-}
-catch(MongoConnectionException $e)
-{
-    die("Failed to connect to database ".$e->getMessage());
-}
+$servername = "sql101.byethost.com";
+$username = "b9_22175232";
+$password = "06197350";
 
-// $cursor = $collection->find();
+// Create connection
+$conn = new mysqli($servername, $username, $password);
 
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
 ?>
